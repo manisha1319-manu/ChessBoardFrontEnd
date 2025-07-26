@@ -1,0 +1,49 @@
+.tab1 tr:nth-child(even) td:nth-child(odd),
+.tab1 tr:nth-child(odd) td:nth-child(even) {
+            background-color: black; 
+        }
+.tab1 tr:nth-child(odd) td:nth-child(odd),
+.tab1 tr:nth-child(even) td:nth-child(even) {
+            background-color: white; 
+        }
+.tab1 td:hover{
+  color: rgb(41, 255, 41);
+  background-color:aqua;
+  cursor: pointer;
+}
+.tab1 td:empty{
+        padding: 20px;
+        }
+/* caption{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+        } */
+.chessh1{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color:rgb(0, 0, 0);
+    width: 335px;
+}
+/* .pink{
+    color: hotpink;
+} */
+/* Style for the first two rows */
+.tab1 tr:nth-child(-n+2) {
+    color: rgb(0, 0, 255);
+    font-size: larger;
+  }
+
+  /* Style for the last two rows */
+  .tab1 tr:nth-last-child(-n+2) {
+    color: red;
+    font-size: larger;
+  }
+  .tab1{
+    margin: auto;
+    border-width: 1px;
+    border-style:solid;
+    border-color: black;
+  }
